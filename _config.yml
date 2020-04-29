@@ -83,7 +83,7 @@ top: true
 
 # Miscellaneous
 # 百度统计
-baidu_analytics: ''
+baidu_analytics: 'd1c17777d4e0c9d973289f67c288bc14'
 google_analytics: ''
 
 # 网站图标

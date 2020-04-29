@@ -23,7 +23,7 @@
 
     <% if ((theme.reward_type === 2 || (theme.reward_type === 1 && post.reward)) && !index){ %>
     <div class="page-reward">
-      <a href="javascript:void(0);" class="page-reward-btn tooltip-top" target="_self">
+      <a href="javascript:void(0);" onmouseover="_hmt.push(['_trackEvent', '赞赏', '查看', '<%= page.title %>'])" class="page-reward-btn tooltip-top" target="_self">
         <div class="tooltip tooltip-east">
           <span class="tooltip-item">
             赏
@@ -53,6 +53,7 @@
         </div>
       </a>
     </div>
+
     <% } %>
 
     <% if (((theme.copyright_type === 2) || (theme.copyright_type === 1 && post.copyright)) && !index){ %>
